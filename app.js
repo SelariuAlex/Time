@@ -3,7 +3,7 @@ let total = 0;
 
 function timp(minute = 0) {
   total = minute + total;
-  console.log('Ai invatat ' + total + ' minute');
+  console.log('Ai invatat ' + total + ' de minute');
 }
 
 timp(5280); // 05.2018
@@ -45,7 +45,8 @@ timp(160); // 27.01.2019
 timp(240); // 28.01.2019
 timp(200); // 29.01.2019
 timp(200); // 30.01.2019
+timp(180); // 31.01.2019
 
 let ore = total / 60;
 
-console.log('Ai invatat in jur de ' + Math.round(ore) + ' ore');
+console.log('Ai invatat in jur de ' + Math.round(ore) + ' de ore');
